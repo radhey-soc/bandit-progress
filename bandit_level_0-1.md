@@ -1,11 +1,13 @@
-# Bandit Level 0 → 1
+Bandit Level 0 → 1
 
-**Command used to connect:**
+Command to connect
 ssh bandit0@bandit.labs.overthewire.org -p 2220
+Reason: SSH remote terminal using correct username and custom port.
 
-**Command used to get the password:**
+Command to get password:
 cat readme
+Reason: File readme exists in home directory; cat outputs its contents.
 
-**Reason it worked:**
-The `ssh` command opened a remote terminal session using the correct username and port. Once connected, `cat readme` displayed the content of the file named `readme`, which contained the password for the next level.
-
+Core Concept:
+Basic credential access through local file enumeration.
+Password: (found using above method)
