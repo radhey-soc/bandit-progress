@@ -1,6 +1,5 @@
 Bandit Level 2 → Level 3
-Level Goal says:
-The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
+Level Goal says: The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
 
 Steps:
 1. Logged in as bandit2 using SSH:
