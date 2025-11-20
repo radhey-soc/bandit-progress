@@ -7,7 +7,7 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 2. After login, I am already in the home directory.
 
-3.Used ls to verify the file named -.
+3. Used ls to verify the file named '-'.
 
 4. The shell treats - as an option, not a filename. To force it to treat it as a file, I had to specify the path using ./-.
 
