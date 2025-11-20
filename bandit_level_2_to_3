@@ -1,0 +1,11 @@
+
+Bandit Level 2 → Level 3
+Level Goal says:
+The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
+1. Logged in as bandit2 using SSH:
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+2. landed in home directory after login, verified the file using ls.
+3. read the file using the command:
+cat ./"--spaces in this filename--"
+ If the path wasn't double quoted, the shell would treat, spaces, in, this, filename as separate arguments due to word splitting 
+5.  The output was the password for bandit3.
